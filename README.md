@@ -1,16 +1,28 @@
-## Hi there 👋
+# [bima_chasin] // Research & Quantitative Engineering
 
-<!--
-**bmcs-ux/bmcs-ux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Investigator of non-stationary time-series and complex adaptive systems. My work focuses on the synthesis of econometric rigor and modern computational efficiency.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔬 Core Research: Project CASSANDRA (Private)
+A proprietary multi-timeframe analytical engine designed to model financial phenomena across varying temporal resolutions (**D1**, **H1**, **M1**).
+
+#### **Methodological Framework:**
+* **System Identification:** Utilizing **Granger Causality** and **VARX/ARX** models to map exogenous macro-shocks (via FRED) to endogenous asset price dynamics.
+* **Stochastic Volatility:** Implementation of **DCC-GARCH** for dynamic conditional correlation and risk estimation.
+* **State-Space Estimation:** Leveraging **Kalman Filters** for high-frequency noise reduction and latent state tracking.
+* **Signal Restoration:** Mathematical inversion of log-returns to recover nominal price structures through robust integration techniques.
+
+### 🛠 Laboratory Stack
+* **Computation:** `Python (Scientific Stack: NumPy, Pandas, SciPy)`
+* **Inference:** `Statsmodels`, `ARCH-library`, `Probabilistic Programming`
+* **Data Pipelines:** Automated ETL for Macro (St. Louis Fed) & Market microstructure.
+* **Deployment:** VPS-ready binary model serialization (`Pickle/Protobuf`).
+
+---
+
+### 📊 Scientific Interests
+> "Mathematical Modeling of Financial Contagion, Information Asymmetry in Microstructures, and the Application of Control Theory in Algorithmic Execution."
+
+---
+*Note: Primary repositories are currently under non-disclosure for proprietary research purposes.*
