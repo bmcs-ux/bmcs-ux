@@ -5,13 +5,7 @@ Investigator of non-stationary time-series and complex adaptive systems. My work
 ---
 
 ### 🔬 Core Research: Project CASSANDRA (Private)
-A proprietary multi-timeframe analytical engine designed to model financial phenomena across varying temporal resolutions (**D1**, **H1**, **M1**).
-
-#### **Methodological Framework:**
-* **System Identification:** Utilizing **Granger Causality** and **VARX/ARX** models to map exogenous macro-shocks (via FRED) to endogenous asset price dynamics.
-* **Stochastic Volatility:** Implementation of **DCC-GARCH** for dynamic conditional correlation and risk estimation.
-* **State-Space Estimation:** Leveraging **Kalman Filters** for high-frequency noise reduction and latent state tracking.
-* **Signal Restoration:** Mathematical inversion of log-returns to recover nominal price structures through robust integration techniques.
+A proprietary multi-timeframe analytical engine designed to model financial phenomena across varying temporal resolutions.
 
 ### 🛠 Laboratory Stack
 * **Computation:** `Python (Scientific Stack: NumPy, Pandas, SciPy)`
